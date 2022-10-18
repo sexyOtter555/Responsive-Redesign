@@ -144,11 +144,11 @@ a{
         text-align: center;
         z-index:1;
         color: #ddd;
-        font-size: 10px;
+        font-size: 20px;
      }
    }
 
-   @media screen and (min-width: 699px) {
+   @media screen and (max-width: 699px) {
     #hoursinfo {
         position:relative;
         top:0.3vh;
